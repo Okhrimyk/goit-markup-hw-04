@@ -36,7 +36,9 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
          
      /* Header start */
 .page-header {
-    border-bottom: 1px solid #e7e9fc;}
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+    }
 
 .header-style {
     display: flex;
@@ -100,8 +102,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus 
-.nav-link.current{
+.contacts-link:focus, 
+.nav-link.current {
     color: #404bbf;}
 
 .contacts {
