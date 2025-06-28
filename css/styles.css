@@ -132,7 +132,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
     padding: 188px 0 ;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;}
+    background-size: cover;
+    max-width: 1440px;}
     
 .hero-baner-title{
     font-weight: 700;
@@ -161,7 +162,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
     margin: 0 auto;
     padding: 16px 32px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    white-space: nowrap;}
+    white-space: nowrap;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .hero-baner-button:hover,
 .hero-baner-button:focus{
