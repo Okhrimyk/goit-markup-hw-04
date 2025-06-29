@@ -272,23 +272,34 @@ margin-bottom: 8px;}
     letter-spacing: 0.02em;
     text-align: center;}
     
-    .team-social-list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 24px;
-        padding: 12px;
+.team-social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 12px;
     }
-    .social-link-item {
-        width: 40px;
-        height: 40px;
-        background-color: #4d5ae5;
-        border-radius: 50%;
-        position: relative;}
-        
-    .social-link {
 
+.social-link-item {
+    width: 40px;
+    height: 40px;
+    position: relative;}
+        
+.social-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
+
+.social-link:hover,
+.social-link:focus {
+    background-color: #404bbf;
+}
+
     .social-icon {
         position: absolute;
         top: 12px;
