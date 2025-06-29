@@ -197,7 +197,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
     border: 1px solid #8e8f99;
     border-radius: 4px;
     background-color: #f4f4fd;
-    padding: 24px 100px;}
+    padding: 24px 100px;
+margin-bottom: 8px;}
     
 
 .advantages-item-svg .icon {
